@@ -9,18 +9,20 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="DADA_RefDocFlatfileTests">1.0</value>
+  </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">4</value>
+  <value name="build">5</value>
   <null name="description"/>
   <value name="created_date">15-10-2026 04:54:58 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-10-15T04:55:16.807386032Z</value>
+  <value name="lastUpdated">2026-10-15T04:56:22.614228712Z</value>
   <value name="wmProjectId">flda1b20a29ded47feb0ac4b5ba86bf3b7</value>
   <value name="creator">gen-SIQA-Test gen-SIQA-Test</value>
 </Values>
